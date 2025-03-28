@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+    <h3>1. Ordered List with Different Numbering Styles</h3>
+    <ol type="1">
+        <li>Introduction</li>
+        <li>Steps:
+            <ol type="A">
+                <li>Setup</li>
+                <li>Execution</li>
+                <li>Final Review</li>
+            </ol>
+        </li>
+        <li>Conclusion
+            <ol type="i">
+                <li>Summary</li>
+                <li>Future Scope</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3>2. Unordered List with Different Bullet Styles</h3>
+    <ul style="list-style-type: disc;">
+        <li>Primary Topics</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>Subtopics</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Additional Information</li>
+    </ul>
+
+    <h3>3. Description List</h3>
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>HyperText Markup Language - Used for structuring web pages.</dd>
+
+        <dt><b>CSS</b></dt>
+        <dd>Cascading Style Sheets - Used for styling web pages.</dd>
+
+        <dt><b>JavaScript</b></dt>
+        <dd>A scripting language used to create dynamic content on websites.</dd>
+    </dl>
+
+    <h3>4. Deeply Nested List Combining Ordered and Unordered Lists</h3>
+    <ol>
+        <li>Frontend Technologies
+            <ul>
+                <li>HTML</li>
+                <li>CSS
+                    <ul>
+                        <li>Flexbox</li>
+                        <li>Grid</li>
+                        <li>Animations</li>
+                    </ul>
+                </li>
+                <li>JavaScript
+                    <ol type="a">
+                        <li>ES6+ Features</li>
+                        <li>DOM Manipulation</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Backend Technologies
+            <ul>
+                <li>Node.js</li>
+                <li>Python
+                    <ol type="i">
+                        <li>Django</li>
+                        <li>Flask</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database Management
+            <ul>
+                <li>SQL
+                    <ol type="A">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                    </ol>
+                </li>
+                <li>NoSQL
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>Firebase</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>
