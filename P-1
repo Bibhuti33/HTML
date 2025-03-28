@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Table</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Scores</th>
+        </tr>
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alok</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rajesh</td>
+            <td colspan="2">
+                <table border="1">
+                    <tr>
+                        <td>Math: 80</td>
+                    </tr>
+                    <tr>
+                        <td>Science: 88</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
