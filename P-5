@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Work Report</title>
+</head>
+<body>
+
+
+    <table border="1" cellspacing="0" cellpadding="8" style="width: 80%; border-collapse: collapse; text-align: center;">
+       
+        <thead>
+            <tr>
+                <th colspan="5">Employee Monthly Work Report</th>
+            </tr>
+        </thead>
+       
+        
+        <tbody>
+            <tr>
+                <th rowspan="2">Employee ID</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Department</th>
+                <th colspan="2">Contact Info</th>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>EMP001</td>
+                <td>Bhagyashree Madam</td>
+                <td>Managing Director</td>
+                <td>b@gmail.com</td>
+                <td>123-456-7890</td>
+            </tr>
+            <tr>
+                <td>EMP002</td>
+                <td>Pulin Sir</td>
+                <td>Director</td>
+                <td>p@gmail.com</td>
+                <td>987-654-3210</td>
+            </tr>
+        </tbody>
+
+       </table>
+       </body>
+</html>
