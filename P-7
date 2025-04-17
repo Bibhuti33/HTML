@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested Table using Rowspan and Colspan</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Nested Table Example</h2>
+
+<table>
+    <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Contact Info</th>
+        <th rowspan="2">Address</th>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+    <tr>
+        <td>Bibhuti</td>
+        <td>bibhuti@example.com</td>
+        <td>1234567890</td>
+        <td rowspan="2">
+            <table>
+                <tr><td>Street: 660</td></tr>
+                <tr><td>City: BBSR</td></tr>
+                <tr><td>Zip: 12345</td></tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>Babulu</td>
+        <td>babulu@example.com</td>
+        <td>0987654321</td>
+    </tr>
+</table>
+
+</body>
+</html>
